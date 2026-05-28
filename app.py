@@ -814,67 +814,6 @@ def handle_join(data):
     )
 
 # SOCKET → LIVE ANSWERS
-# @socketio.on("submit_live_answer")
-# def handle_live_answer(data):
-
-#     session_id = data["session_id"]
-
-#     player = data["player"]
-
-#     answer = data["answer"]
-
-#     question_index = data["question_index"]
-
-#     session = sessions[session_id]
-
-#     if question_index not in session["current_answers"]:
-
-#         session["current_answers"][question_index] = {}
-
-#     session["current_answers"][question_index][player] = answer
-
-#     answers = session["current_answers"][question_index]
-
-#     if "p1" in answers and "p2" in answers:
-
-#         if len(session["answers1"]) <= len(session["answers2"]):
-
-#             session["answers1"].append(
-#                 answers["p1"]
-#             )
-
-#             session["answers2"].append(
-#                 answers["p2"]
-#             )
-
-#         emit(
-#             "both_answered",
-#             room=session_id
-#         )
-
-#     else:
-
-#         # emit(
-#         #     "waiting",
-#         #     {"message":"Waiting for partner ❤️"},
-#         #     room=request.sid
-#         # )
-        
-#         game_type = session["game_type"]
-
-#         waiting_message = (
-#             "Waiting for your friend ⚡"
-#             if game_type == "friends"
-#             else "Waiting for your partner ❤️"
-#         )
-
-#         emit(
-#             "waiting",
-#             {"message": waiting_message},
-#             room=request.sid
-#         )
-
-
 @socketio.on("submit_live_answer")
 def handle_live_answer(data):
 
@@ -896,28 +835,31 @@ def handle_live_answer(data):
 
     answers = session["current_answers"][question_index]
 
-    # BOTH ANSWERED
     if "p1" in answers and "p2" in answers:
 
-        # SAVE SAFELY BY QUESTION INDEX
-        while len(session["answers1"]) <= question_index:
-            session["answers1"].append(None)
+        if len(session["answers1"]) <= len(session["answers2"]):
 
-        while len(session["answers2"]) <= question_index:
-            session["answers2"].append(None)
+            session["answers1"].append(
+                answers["p1"]
+            )
 
-        session["answers1"][question_index] = answers["p1"]
-
-        session["answers2"][question_index] = answers["p2"]
+            session["answers2"].append(
+                answers["p2"]
+            )
 
         emit(
             "both_answered",
             room=session_id
         )
-        del session["current_answers"][question_index]
 
     else:
 
+        # emit(
+        #     "waiting",
+        #     {"message":"Waiting for partner ❤️"},
+        #     room=request.sid
+        # )
+        
         game_type = session["game_type"]
 
         waiting_message = (
@@ -931,6 +873,64 @@ def handle_live_answer(data):
             {"message": waiting_message},
             room=request.sid
         )
+
+
+# @socketio.on("submit_live_answer")
+# def handle_live_answer(data):
+
+#     session_id = data["session_id"]
+
+#     player = data["player"]
+
+#     answer = data["answer"]
+
+#     question_index = data["question_index"]
+
+#     session = sessions[session_id]
+
+#     if question_index not in session["current_answers"]:
+
+#         session["current_answers"][question_index] = {}
+
+#     session["current_answers"][question_index][player] = answer
+
+#     answers = session["current_answers"][question_index]
+
+#     # BOTH ANSWERED
+#     if "p1" in answers and "p2" in answers:
+
+#         # SAVE SAFELY BY QUESTION INDEX
+#         while len(session["answers1"]) <= question_index:
+#             session["answers1"].append(None)
+
+#         while len(session["answers2"]) <= question_index:
+#             session["answers2"].append(None)
+
+#         session["answers1"][question_index] = answers["p1"]
+
+#         session["answers2"][question_index] = answers["p2"]
+
+#         emit(
+#             "both_answered",
+#             room=session_id
+#         )
+#         del session["current_answers"][question_index]
+
+#     else:
+
+#         game_type = session["game_type"]
+
+#         waiting_message = (
+#             "Waiting for your friend ⚡"
+#             if game_type == "friends"
+#             else "Waiting for your partner ❤️"
+#         )
+
+#         emit(
+#             "waiting",
+#             {"message": waiting_message},
+#             room=request.sid
+#         )
 
 # if __name__ == "__main__":
 

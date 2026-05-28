@@ -2,5 +2,6 @@ Flask==3.0.3
 Flask-SocketIO==5.3.6
 groq==1.2.0
 python-dotenv==1.2.2
-eventlet==0.41.0
 gunicorn==26.0.0
+gevent
+gevent-websocket

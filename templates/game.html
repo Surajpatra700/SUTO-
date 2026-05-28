@@ -216,7 +216,7 @@ function submitAnswer(){
         alert(
             currentTheme === "friends"
             ?
-            "Select an option first ⚡"
+            "Please select an option first 🤝"
             :
             "Please select an answer ❤️"
         )
@@ -348,6 +348,13 @@ socket.on("both_answered", async () => {
                         📤
                     </div>
 
+                    <div 
+                        class="action-icon"
+                        onclick="copyGameLink()"
+                    >
+                        🔗
+                    </div>
+
                 </div>
 
                 <div id="partnerResponses"></div>
@@ -362,6 +369,13 @@ socket.on("both_answered", async () => {
 
     showQuestion()
 })
+
+function copyGameLink(){
+
+    navigator.clipboard.writeText(gameLink);
+
+    alert("Link copied successfully!");
+}
 
 let responsesVisible = false
 

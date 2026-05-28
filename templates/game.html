@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>SUTO Game ❤️</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div id="questionBox"></div>
+
+</div>
+
+<script>
+
+const sessionId = "{{ session_id }}"
+
+const params = new URLSearchParams(
+    window.location.search
+)
+
+const player = params.get("p") || "p1"
+
+const socket = io()
+
+socket.emit("join_room", {
+    session_id: sessionId
+})
+
+let levels = []
+
+let currentLevel = 0
+let currentQuestion = 0
+
+let answered = false
+
+let currentTheme = "couple"
+
+async function loadQuestions(){
+
+    const response = await fetch(
+        `/get-questions/${sessionId}`
+    )
+
+    const data = await response.json()
+
+    console.log("QUESTIONS DATA:", data)
+
+    levels = data.questions
+
+    currentTheme = data.theme || "couple"
+
+    document.body.classList.add(currentTheme)
+
+    if(!levels || levels.length === 0){
+        console.log("No levels found")
+        return
+    }
+
+    showRoundIntro()
+}
+
+function getHeartEmoji(){
+
+    return currentTheme === "friends"
+        ? "⚡"
+        : "❤️"
+}
+
+function getSubtitle(){
+
+    return currentTheme === "friends"
+        ? "Chaos, Memes & Friendship ⚡"
+        : "Coffee, Chaos & Conversations ❤️"
+}
+
+function showRoundIntro(){
+
+    answered = false
+
+    const level = levels[currentLevel]
+
+    if(!level){
+        console.log("Level not found")
+        return
+    }
+
+    if(!level || !level.questions[currentQuestion]){
+        console.log("Question not found")
+        return
+    }
+
+    document.getElementById(
+        "questionBox"
+    ).innerHTML = `
+
+        <div class="question-card round-card">
+
+            <div class="round-number">
+                Round ${currentLevel + 1}
+            </div>
+
+            <h1 class="round-title">
+                ${level.level}
+            </h1>
+
+            <p class="round-subtitle">
+                Get ready for 5 exciting questions ${getHeartEmoji()}
+            </p>
+
+            <button onclick="showQuestion()">
+                Start Round ${getHeartEmoji()}
+            </button>
+
+        </div>
+    `
+}
+
+function showQuestion(){
+
+    answered = false
+
+    const level = levels[currentLevel]
+
+    const question =
+        level.questions[currentQuestion]
+
+    let html = `
+
+        <div class="question-card">
+
+            <div class="level-badge">
+                Round ${currentLevel + 1}
+            </div>
+
+            <h3>
+                ${question.question}
+            </h3>
+    `
+
+    if(player === "p1"){
+
+        html += `
+            <p class="player-title">
+                Your Answer ${getHeartEmoji()}
+            </p>
+        `
+
+    } else {
+
+        html += `
+            <p class="player-title">
+                Guess Their Answer ${getHeartEmoji()}
+            </p>
+        `
+    }
+
+    question.options.forEach((opt, index) => {
+
+        html += `
+
+            <label>
+
+                <input 
+                    type="radio"
+                    name="answer"
+                    value="${index}"
+                >
+
+                ${opt}
+
+            </label>
+        `
+    })
+
+    html += `
+
+        <button onclick="submitAnswer()">
+            Submit ${getHeartEmoji()}
+        </button>
+
+        <p 
+            id="waitingText"
+            style="display:none;"
+        >
+            Waiting for other player ${getHeartEmoji()}
+        </p>
+
+        </div>
+    `
+
+    document.getElementById(
+        "questionBox"
+    ).innerHTML = html
+}
+
+function submitAnswer(){
+
+    if(answered) return
+
+    const selected = document.querySelector(
+        'input[name="answer"]:checked'
+    )
+
+    if(!selected){
+
+        alert(
+            currentTheme === "friends"
+            ?
+            "Select an option first ⚡"
+            :
+            "Please select an answer ❤️"
+        )
+
+        return
+    }
+
+    answered = true
+
+    document.querySelector(
+        "button"
+    ).disabled = true
+
+    document.getElementById(
+        "waitingText"
+    ).style.display = "block"
+
+    socket.emit("submit_live_answer", {
+
+        session_id: sessionId,
+
+        player: player,
+
+        answer: selected.value,
+
+        question_index:
+            `${currentLevel}_${currentQuestion}`
+    })
+}
+
+socket.on("both_answered", async () => {
+
+    currentQuestion++
+
+    if(currentQuestion >= 5){
+
+        currentQuestion = 0
+
+        currentLevel++
+
+        if(currentLevel < 5){
+
+            showRoundIntro()
+
+            return
+        }
+    }
+
+    if(currentLevel >= 5){
+
+        document.getElementById(
+            "questionBox"
+        ).innerHTML = `
+
+            <div class="question-card">
+
+                <div class="loader"></div>
+
+                <h2 class="loading-text">
+                    Calculating your results..
+                </h2>
+
+            </div>
+        `
+
+        const response = await fetch(
+            `/submit-answer/${sessionId}`,
+            {
+                method:"POST",
+                headers:{
+                    "Content-Type":"application/json"
+                }
+            }
+        )
+
+        const result = await response.json()
+
+        document.body.innerHTML = `
+
+        <div class="container">
+
+            <div class="result-card" id="resultCard">
+
+                <img 
+                    src="/static/suto-logo.png"
+                    class="result-logo"
+                >
+
+                <div class="result-score">
+                    ${result.score}%
+                </div>
+
+                <div class="result-category">
+                    ${result.category}
+                </div>
+
+                <p class="result-commentary">
+                    ${result.commentary}
+                </p>
+
+                <p class="subtitle">
+                    ${getSubtitle()}
+                </p>
+
+                <div class="result-actions">
+
+                    <div 
+                        class="action-icon"
+                        onclick="saveScreenshot()"
+                    >
+                        📸
+                    </div>
+
+                    <div 
+                        class="action-icon"
+                        onclick="showPartnerResponses()"
+                    >
+                        ${
+                            currentTheme === "friends"
+                            ? "🤝"
+                            : "💌"
+                        }
+                    </div>
+
+                    <div 
+                        class="action-icon"
+                        onclick="shareGame()"
+                    >
+                        📤
+                    </div>
+
+                </div>
+
+                <div id="partnerResponses"></div>
+
+            </div>
+
+        </div>
+        `
+
+        return
+    }
+
+    showQuestion()
+})
+
+let responsesVisible = false
+
+async function showPartnerResponses(){
+
+    const container =
+        document.getElementById(
+            "partnerResponses"
+        )
+
+    // HIDE IF ALREADY OPEN
+    if(responsesVisible){
+
+        container.innerHTML = ""
+
+        responsesVisible = false
+
+        return
+    }
+
+    const response = await fetch(
+        `/get-session-results/${sessionId}?player=${player}`
+    )
+
+    const results = await response.json()
+
+    let html = `
+
+        <div class="question-card">
+
+            <h2 class="responses-title">
+                ${
+                    currentTheme === "friends"
+                    ?
+                    "Friend Responses ⚡"
+                    :
+                    "Partner Responses ❤️"
+                }
+            </h2>
+    `
+
+    results.forEach((item, index) => {
+
+        html += `
+
+            <div class="response-item">
+
+                <h3>
+                    ${index + 1}.
+                    ${item.question}
+                </h3>
+
+                <p>
+                    ${item.primary_label}:
+                    <b>${item.primary_answer}</b>
+                </p>
+
+                <p>
+                    ${item.secondary_label}:
+                    <b>${item.secondary_answer}</b>
+                </p>
+
+                <p>
+                    ${
+                        item.matched
+                        ?
+                        "✅ Matched"
+                        :
+                        "❌ Different"
+                    }
+                </p>
+
+                <hr>
+
+            </div>
+        `
+    })
+
+    html += `</div>`
+
+    container.innerHTML = html
+
+    responsesVisible = true
+}
+
+async function saveScreenshot(){
+
+    const card =
+        document.getElementById("resultCard")
+
+    const canvas =
+        await html2canvas(card, {
+            backgroundColor: null,
+            scale: 2
+        })
+
+    const link =
+        document.createElement("a")
+
+    link.download = "suto-result.png"
+
+    link.href = canvas.toDataURL()
+
+    link.click()
+}
+
+async function shareGame() {
+
+    const shareLink = gameLink;
+
+    const shareText =
+        `Play this SUTO compatibility game with me ❤️\n\n${shareLink}`;
+
+    if (navigator.share) {
+
+        try {
+
+            await navigator.share({
+
+                title: "SUTO Compatibility Game",
+                text: shareText,
+                url: shareLink
+
+            });
+
+        } catch(err) {
+
+            console.log("Share cancelled");
+
+        }
+
+    } else {
+
+        navigator.clipboard.writeText(shareLink);
+
+        alert("Link copied to clipboard!");
+    }
+}
+
+loadQuestions()
+
+</script>
+
+</body>
+</html>

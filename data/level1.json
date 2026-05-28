@@ -1,0 +1,452 @@
+{
+  "1": {
+    "question": "Who says “bye” first on calls?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Nobody, call bas cut ho jaata hai",
+      "20 baar bye bolte hain"
+    ]
+  },
+  "2": {
+    "question": "Who gets angry faster?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Depends on mood swings",
+      "Hum dono mini volcano hain"
+    ]
+  },
+  "3": {
+    "question": "Who replies late intentionally?",
+    "options": [
+      "Me 😭",
+      "My Partner 😭",
+      "Both toxic equally",
+      "Nobody"
+    ]
+  },
+  "4": {
+    "question": "Who is more clingy?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Secretly both",
+      "Depends on the day"
+    ]
+  },
+  "5": {
+    "question": "Who apologizes first after fights?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Sticker/meme bhej dete hain",
+      "Fight khud hi expire ho jaata hai"
+    ]
+  },
+  "6": {
+    "question": "Who spends more money while going out?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Splitwise zindabad",
+      "Wallet dono ka rota hai"
+    ]
+  },
+  "7": {
+    "question": "Who takes longer to get ready?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both equally dramatic",
+      "Ready? Hum toh late hi aate hain"
+    ]
+  },
+  "8": {
+    "question": "Who says “I’m fine” but actually isn’t?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both 😭",
+      "Nobody"
+    ]
+  },
+  "9": {
+    "question": "Who sends more reels?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Reels hi relationship hai",
+      "Hum mature hain 😌"
+    ]
+  },
+  "10": {
+    "question": "Who gets jealous faster?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both possessive",
+      "Nobody cares 😭"
+    ]
+  },
+  "11": {
+    "question": "Who is more dramatic?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Full daily soap couple",
+      "No drama only peace"
+    ]
+  },
+  "12": {
+    "question": "Who starts random arguments?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Internet issues start them",
+      "Arguments? We debate 😌"
+    ]
+  },
+  "13": {
+    "question": "Who stalked first on Instagram?",
+    "options": [
+      "Me",
+      "My Partner",
+      "FBI level stalking by both",
+      "Destiny connected us 😭"
+    ]
+  },
+  "14": {
+    "question": "Who falls asleep first during calls?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both",
+      "Sleep? What’s that?"
+    ]
+  },
+  "15": {
+    "question": "Who forgets things more often?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Hum dono goldfish hain",
+      "Nobody"
+    ]
+  },
+  "16": {
+    "question": "Who says “5 minutes” and takes 30?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both certified latecomers",
+      "Nobody"
+    ]
+  },
+  "17": {
+    "question": "Who is more obsessed with food?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Relationship survives on food",
+      "We survive on chai"
+    ]
+  },
+  "18": {
+    "question": "Who gets emotional during movies?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both cry secretly",
+      "No emotions only popcorn"
+    ]
+  },
+  "19": {
+    "question": "Who takes more selfies?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Gallery full of us 😭",
+      "Camera shy couple"
+    ]
+  },
+  "20": {
+    "question": "Who says “one last reel” and watches 50 more?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both doom scroll together",
+      "We sleep on time 😌"
+    ]
+  },
+  "21": {
+    "question": "Who is more stubborn?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Ego vs ego",
+      "Nobody"
+    ]
+  },
+  "22": {
+    "question": "Who starts missing first after a fight?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both secretly",
+      "Fight hi nahi hota"
+    ]
+  },
+  "23": {
+    "question": "Who gives better surprises?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both cute planners",
+      "Surprise? Budget nahi 😭"
+    ]
+  },
+  "24": {
+    "question": "Who uses more emojis while texting?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Emoji overload by both",
+      "Dry texters 😭"
+    ]
+  },
+  "25": {
+    "question": "Who laughs at the worst timing?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Hum dono pagal hain",
+      "Nobody"
+    ]
+  },
+  "26": {
+    "question": "Who is more likely to steal fries?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Sharing is caring 😭",
+      "Fries are sacred"
+    ]
+  },
+  "27": {
+    "question": "Who says “I’m not hungry” and eats half the food?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both guilty",
+      "Impossible 😭"
+    ]
+  },
+  "28": {
+    "question": "Who is more likely to overthink messages?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both detectives",
+      "No overthinking zone"
+    ]
+  },
+  "29": {
+    "question": "Who sends “good morning” first?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Whoever wakes up first",
+      "Hum directly reels bhejte hain"
+    ]
+  },
+  "30": {
+    "question": "Who would survive longer without texting?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both independent 😌",
+      "Impossible for both"
+    ]
+  },
+  "31": {
+    "question": "Who gets more awkward in public?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both socially confused",
+      "Main character energy"
+    ]
+  },
+  "32": {
+    "question": "Who loves attention more?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Attention seekers both",
+      "Hum lowkey hain"
+    ]
+  },
+  "33": {
+    "question": "Who says “nothing happened” when clearly something happened?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both 😭",
+      "Nobody"
+    ]
+  },
+  "34": {
+    "question": "Who is more likely to start singing randomly?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Concert chalu ho jaata hai",
+      "We respect silence"
+    ]
+  },
+  "35": {
+    "question": "Who is more sleepy all the time?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both pandas",
+      "Sleep is a myth"
+    ]
+  },
+  "36": {
+    "question": "Who would win in a roast battle?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Mutual destruction",
+      "We’re too nice 😌"
+    ]
+  },
+  "37": {
+    "question": "Who remembers tiny details better?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both memory monsters",
+      "Hum dono bhulakkad"
+    ]
+  },
+  "38": {
+    "question": "Who gets more possessive?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both little toxic 😭",
+      "Nobody"
+    ]
+  },
+  "39": {
+    "question": "Who would survive a zombie apocalypse better?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Teamwork OP",
+      "Hum first episode mein gaye"
+    ]
+  },
+  "40": {
+    "question": "Who is more addicted to their phone?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both screen-time legends",
+      "We touch grass 😌"
+    ]
+  },
+  "41": {
+    "question": "Who says “listen…” before starting drama?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both daily serial actors",
+      "Nobody"
+    ]
+  },
+  "42": {
+    "question": "Who gets hangry faster?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Food = peace for both",
+      "Nobody"
+    ]
+  },
+  "43": {
+    "question": "Who takes more time choosing food?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Menu se relationship bana lete hain",
+      "Instant order masters"
+    ]
+  },
+  "44": {
+    "question": "Who is more likely to randomly disappear from chat?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Ghosting experts",
+      "Nobody"
+    ]
+  },
+  "45": {
+    "question": "Who says “we should save money” and then shops online?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both 😭",
+      "Hum financially stable hain 😌"
+    ]
+  },
+  "46": {
+    "question": "Who gets more excited for dates?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both equally excited",
+      "Cool couple vibes"
+    ]
+  },
+  "47": {
+    "question": "Who would lose an argument but still continue arguing?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both lawyers",
+      "Nobody"
+    ]
+  },
+  "48": {
+    "question": "Who takes uglier candid photos?",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both expose each other",
+      "We’re photographers 😌"
+    ]
+  },
+  "49": {
+    "question": "Who would text first after a breakup? 😭",
+    "options": [
+      "Me",
+      "My Partner",
+      "Both within 2 hours",
+      "Depends on playlist"
+    ]
+  },
+  "50": {
+    "question": "Who is the bigger green flag?",
+    "options": [
+      "Me 😌",
+      "My Partner 😌",
+      "Hum dono perfect hain",
+      "Red flag bhi pyaara lagta hai ❤️"
+    ]
+  }
+}

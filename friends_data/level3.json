@@ -1,0 +1,452 @@
+{
+  "1": {
+    "question": "If I could eat only one thing forever, what would I choose?",
+    "options": [
+      "Momos 😌",
+      "Biryani 🍗",
+      "Maggi 🍜",
+      "Free food anywhere 😭"
+    ]
+  },
+  "2": {
+    "question": "Which app do I waste the most time on?",
+    "options": [
+      "Instagram 📱",
+      "YouTube 😭",
+      "WhatsApp gossip",
+      "LinkedIn pretending to work 😌"
+    ]
+  },
+  "3": {
+    "question": "What would I most likely do after becoming rich?",
+    "options": [
+      "Travel everywhere ✈️",
+      "Buy useless expensive things 😭",
+      "Sleep peacefully",
+      "Still ask friends for UPI"
+    ]
+  },
+  "4": {
+    "question": "What kind of student am I secretly?",
+    "options": [
+      "Last-night warrior 😭",
+      "Fake studious 😌",
+      "Attendance survivor",
+      "Academically dangerous"
+    ]
+  },
+  "5": {
+    "question": "Which superpower would I definitely misuse?",
+    "options": [
+      "Mind reading 👀",
+      "Teleportation ✈️",
+      "Invisibility 😭",
+      "Stopping time for extra sleep 😴"
+    ]
+  },
+  "6": {
+    "question": "What would I do first during a zombie apocalypse?",
+    "options": [
+      "Panic instantly 😭",
+      "Save snacks first 🍔",
+      "Become leader unnecessarily",
+      "Die in episode one"
+    ]
+  },
+  "7": {
+    "question": "What’s my biggest weakness?",
+    "options": [
+      "Food 🍕",
+      "Attention 😭",
+      "Sleep 😴",
+      "Good WiFi"
+    ]
+  },
+  "8": {
+    "question": "What type of reels do I send most?",
+    "options": [
+      "Dark humor 😭",
+      "Relationship memes",
+      "Brainrot content",
+      "Motivational for 2 days 😌"
+    ]
+  },
+  "9": {
+    "question": "What would I probably become famous for?",
+    "options": [
+      "Accidental meme 😭",
+      "Funny personality 😂",
+      "Chaotic behavior",
+      "Absolutely nothing"
+    ]
+  },
+  "10": {
+    "question": "What’s my most dangerous habit?",
+    "options": [
+      "Overthinking 😭",
+      "Replying late",
+      "Online shopping 💸",
+      "Sleeping too much 😴"
+    ]
+  },
+  "11": {
+    "question": "Which food can instantly fix my mood?",
+    "options": [
+      "Pizza 🍕",
+      "Momos 😌",
+      "Fries 🍟",
+      "Anything free 😭"
+    ]
+  },
+  "12": {
+    "question": "What kind of texter am I?",
+    "options": [
+      "Dry texter 😭",
+      "Emoji overload 😂",
+      "Voice note spammer",
+      "Replies after 3 business days"
+    ]
+  },
+  "13": {
+    "question": "What would I most likely buy impulsively?",
+    "options": [
+      "Clothes 😭",
+      "Food 🍔",
+      "Random gadgets",
+      "Things I’ll never use"
+    ]
+  },
+  "14": {
+    "question": "What’s my secret talent?",
+    "options": [
+      "Sleeping anywhere 😴",
+      "Talking nonsense confidently 😌",
+      "Making people laugh 😂",
+      "Avoiding responsibilities"
+    ]
+  },
+  "15": {
+    "question": "What scares me the most?",
+    "options": [
+      "Failure 😭",
+      "Public embarrassment",
+      "Low attendance",
+      "No internet 😭"
+    ]
+  },
+  "16": {
+    "question": "What would I most likely do during boring lectures?",
+    "options": [
+      "Sleep 😴",
+      "Scroll reels",
+      "Gossip silently",
+      "Pretend to listen 😌"
+    ]
+  },
+  "17": {
+    "question": "Which vibe matches me most?",
+    "options": [
+      "Chaotic gremlin 😭",
+      "Calm & mysterious 😌",
+      "Main character energy",
+      "Confused human"
+    ]
+  },
+  "18": {
+    "question": "What would I do if exams got cancelled?",
+    "options": [
+      "Celebrate dramatically 😭",
+      "Sleep peacefully",
+      "Still panic somehow",
+      "Order food instantly 🍕"
+    ]
+  },
+  "19": {
+    "question": "What’s my biggest toxic trait?",
+    "options": [
+      "Overthinking everything 😭",
+      "Going silent during arguments",
+      "Replying late intentionally",
+      "Acting unbothered 😌"
+    ]
+  },
+  "20": {
+    "question": "Which celebrity would I most likely obsess over?",
+    "options": [
+      "Someone attractive 😭",
+      "A funny creator 😂",
+      "A motivational person 😌",
+      "Whoever trends on reels"
+    ]
+  },
+  "21": {
+    "question": "What kind of traveler am I?",
+    "options": [
+      "Trip planner 😌",
+      "Lost ho jaane wala 😭",
+      "Food explorer 🍕",
+      "Budget destroyer 💸"
+    ]
+  },
+  "22": {
+    "question": "What would I survive longest without?",
+    "options": [
+      "Sleep 😭",
+      "Phone 📱",
+      "Social interaction 😌",
+      "Food 🍔"
+    ]
+  },
+  "23": {
+    "question": "What would I probably do after heartbreak?",
+    "options": [
+      "Gym arc 😌",
+      "Sad playlist marathon 😭",
+      "Pretend I’m fine",
+      "Spam reels to friends"
+    ]
+  },
+  "24": {
+    "question": "What would I do after getting famous online?",
+    "options": [
+      "Act humble 😌",
+      "Become cringe instantly 😭",
+      "Flex forever",
+      "Disappear mysteriously"
+    ]
+  },
+  "25": {
+    "question": "Which late-night activity matches me?",
+    "options": [
+      "Overthinking life 😭",
+      "Scrolling endlessly 📱",
+      "Random motivation arc 😌",
+      "Ordering food again 🍔"
+    ]
+  },
+  "26": {
+    "question": "What’s my relationship with alarms?",
+    "options": [
+      "Ignore completely 😭",
+      "5-minute snooze forever",
+      "Wake up instantly 😌",
+      "Alarm bhi thak jaata hai"
+    ]
+  },
+  "27": {
+    "question": "What kind of gamer would I be?",
+    "options": [
+      "Aggressive tryhard 😭",
+      "Funny noob 😂",
+      "Rage quitter",
+      "Background support player 😌"
+    ]
+  },
+  "28": {
+    "question": "What would I most likely become addicted to?",
+    "options": [
+      "Gaming 🎮",
+      "Shopping 😭",
+      "Cafe hopping ☕",
+      "Reels & brainrot"
+    ]
+  },
+  "29": {
+    "question": "What’s my biggest green flag?",
+    "options": [
+      "Emotionally supportive ❤️",
+      "Funny during bad times 😂",
+      "Loyal AF 😌",
+      "Always shares food 🍕"
+    ]
+  },
+  "30": {
+    "question": "What kind of roommate would I be?",
+    "options": [
+      "Chaotic disaster 😭",
+      "Surprisingly organized 😌",
+      "Food thief 🍔",
+      "Silent cave dweller"
+    ]
+  },
+  "31": {
+    "question": "What would I do after getting one crore rupees?",
+    "options": [
+      "Travel instantly ✈️",
+      "Waste half impulsively 😭",
+      "Invest like businessman 😌",
+      "Still use student discounts"
+    ]
+  },
+  "32": {
+    "question": "What’s my social battery level?",
+    "options": [
+      "Dies instantly 😭",
+      "Depends on people",
+      "Unlimited energy 😌",
+      "Runs on chai ☕"
+    ]
+  },
+  "33": {
+    "question": "What would I most likely forget?",
+    "options": [
+      "Assignment deadlines 😭",
+      "Birthdays",
+      "Wallet & keys",
+      "My own life decisions"
+    ]
+  },
+  "34": {
+    "question": "What kind of music matches my personality?",
+    "options": [
+      "Sad songs 😭",
+      "Party music 💃",
+      "Lo-fi & chill 😌",
+      "Pure random chaos"
+    ]
+  },
+  "35": {
+    "question": "What would I most likely order at a cafe?",
+    "options": [
+      "Cold coffee ☕",
+      "Fries first 🍟",
+      "Most expensive thing 😭",
+      "Whatever looks aesthetic 😌"
+    ]
+  },
+  "36": {
+    "question": "What would I do if I became invisible for one day?",
+    "options": [
+      "Prank everyone 😭",
+      "Sleep peacefully",
+      "Spy on people 👀",
+      "Do absolutely nothing"
+    ]
+  },
+  "37": {
+    "question": "What kind of party person am I?",
+    "options": [
+      "Dance machine 💃",
+      "Food counter pe permanently",
+      "Social battery dead 😭",
+      "Main character energy 😌"
+    ]
+  },
+  "38": {
+    "question": "What’s my biggest academic skill?",
+    "options": [
+      "Last moment survival 😭",
+      "Presentation confidence 😌",
+      "Copying efficiently",
+      "Google searching mastery"
+    ]
+  },
+  "39": {
+    "question": "What would instantly improve my life?",
+    "options": [
+      "More money 💸",
+      "Better sleep 😴",
+      "Mental stability 😭",
+      "Unlimited food 🍕"
+    ]
+  },
+  "40": {
+    "question": "What would I probably text at 2AM?",
+    "options": [
+      "Bro listen… 😭",
+      "Random deep thoughts",
+      "Meme spam 😂",
+      "Are you awake?"
+    ]
+  },
+  "41": {
+    "question": "What kind of chaos describes me best?",
+    "options": [
+      "Emotionally unstable 😭",
+      "Academically struggling",
+      "Socially chaotic 😂",
+      "Surprisingly functional 😌"
+    ]
+  },
+  "42": {
+    "question": "What would I most likely lose during trips?",
+    "options": [
+      "Wallet 💀",
+      "Patience 😭",
+      "Phone charger",
+      "Myself literally"
+    ]
+  },
+  "43": {
+    "question": "What’s my hidden fear?",
+    "options": [
+      "Being ignored 😭",
+      "Not succeeding",
+      "Awkward social situations",
+      "No WiFi"
+    ]
+  },
+  "44": {
+    "question": "What would I most likely binge watch?",
+    "options": [
+      "Sitcoms 😂",
+      "Thrillers 👀",
+      "Romantic drama 😭",
+      "Random YouTube rabbit holes"
+    ]
+  },
+  "45": {
+    "question": "What kind of shopper am I?",
+    "options": [
+      "Impulse buyer 😭",
+      "Window shopping expert",
+      "Budget conscious 😌",
+      "Online cart collector"
+    ]
+  },
+  "46": {
+    "question": "What would I most likely do during a fight?",
+    "options": [
+      "Go silent 😭",
+      "Become sarcastic",
+      "Laugh awkwardly 😂",
+      "Act unbothered 😌"
+    ]
+  },
+  "47": {
+    "question": "What would I most likely become in a friend group?",
+    "options": [
+      "Therapist friend ❤️",
+      "Chaos generator 😭",
+      "Silent observer 😌",
+      "Meme supplier"
+    ]
+  },
+  "48": {
+    "question": "What would I waste an entire day doing?",
+    "options": [
+      "Sleeping 😴",
+      "Watching reels 📱",
+      "Gaming 🎮",
+      "Doing absolutely nothing 😌"
+    ]
+  },
+  "49": {
+    "question": "What would I most likely say before starting drama?",
+    "options": [
+      "Bro listen 😭",
+      "No offense but…",
+      "Trust me 😌",
+      "Bas ek baat bolu?"
+    ]
+  },
+  "50": {
+    "question": "What is my ultimate survival strategy in life?",
+    "options": [
+      "Jugaad 😭",
+      "Fake confidence 😌",
+      "Humor & memes 😂",
+      "Pure luck"
+    ]
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "1": {
+    "question": "What would I choose first during a bad mood?",
+    "options": [
+      "Food",
+      "Sleep",
+      "Talking to you",
+      "Music"
+    ]
+  },
+  "2": {
+    "question": "What is my biggest red flag? 😭",
+    "options": [
+      "Overthinking",
+      "Mood swings",
+      "Replying late",
+      "Getting jealous"
+    ]
+  },
+  "3": {
+    "question": "What kind of date would I love most?",
+    "options": [
+      "Cafe date",
+      "Long drive",
+      "Movie night",
+      "Staying in together"
+    ]
+  },
+  "4": {
+    "question": "What annoys me instantly?",
+    "options": [
+      "Dry replies",
+      "Lies",
+      "Being ignored",
+      "Cancelled plans"
+    ]
+  },
+  "5": {
+    "question": "What’s my comfort food?",
+    "options": [
+      "Pizza",
+      "Momos",
+      "Ice cream",
+      "Biryani"
+    ]
+  },
+  "6": {
+    "question": "What do I secretly overthink the most?",
+    "options": [
+      "Texts",
+      "Arguments",
+      "Future",
+      "Being replaced"
+    ]
+  },
+  "7": {
+    "question": "What’s my biggest green flag?",
+    "options": [
+      "Loyalty",
+      "Effort",
+      "Patience",
+      "Understanding"
+    ]
+  },
+  "8": {
+    "question": "What kind of messages make me happiest?",
+    "options": [
+      "Long paragraphs",
+      "Cute random texts",
+      "Voice notes",
+      "Memes/reels"
+    ]
+  },
+  "9": {
+    "question": "What would hurt me the most?",
+    "options": [
+      "Being ignored",
+      "Dishonesty",
+      "Lack of effort",
+      "Broken trust"
+    ]
+  },
+  "10": {
+    "question": "What’s my biggest weakness?",
+    "options": [
+      "Attachment",
+      "Overthinking",
+      "Emotional reactions",
+      "Trust issues"
+    ]
+  },
+  "11": {
+    "question": "What do I value most in a relationship?",
+    "options": [
+      "Trust",
+      "Communication",
+      "Loyalty",
+      "Consistency"
+    ]
+  },
+  "12": {
+    "question": "What is my late-night personality?",
+    "options": [
+      "Emotional",
+      "Funny",
+      "Overthinking",
+      "Sleepy"
+    ]
+  },
+  "13": {
+    "question": "What’s something I can never resist?",
+    "options": [
+      "Food",
+      "Attention",
+      "Cute texts",
+      "Sleep"
+    ]
+  },
+  "14": {
+    "question": "What type of movies would I pick?",
+    "options": [
+      "Romantic",
+      "Comedy",
+      "Thriller",
+      "Action"
+    ]
+  },
+  "15": {
+    "question": "What’s my toxic habit? 😭",
+    "options": [
+      "Overthinking",
+      "Ignoring messages",
+      "Getting possessive",
+      "Being stubborn"
+    ]
+  },
+  "16": {
+    "question": "What kind of compliments do I love most?",
+    "options": [
+      "Looks",
+      "Personality",
+      "Efforts",
+      "Intelligence"
+    ]
+  },
+  "17": {
+    "question": "What’s my biggest fear in love?",
+    "options": [
+      "Losing someone",
+      "Being cheated on",
+      "Being ignored",
+      "Losing connection"
+    ]
+  },
+  "18": {
+    "question": "What kind of vibe suits me most?",
+    "options": [
+      "Calm and mature",
+      "Chaotic and funny",
+      "Soft romantic",
+      "Main character energy"
+    ]
+  },
+  "19": {
+    "question": "What would I do first after a fight?",
+    "options": [
+      "Overthink",
+      "Wait for texts",
+      "Act normal",
+      "Spam reels"
+    ]
+  },
+  "20": {
+    "question": "What’s my ideal vacation?",
+    "options": [
+      "Beach",
+      "Mountains",
+      "City exploration",
+      "Staycation"
+    ]
+  },
+  "21": {
+    "question": "What kind of music do I vibe with most?",
+    "options": [
+      "Romantic songs",
+      "Sad songs",
+      "Party songs",
+      "Lo-fi/chill"
+    ]
+  },
+  "22": {
+    "question": "What’s my hidden talent?",
+    "options": [
+      "Making people laugh",
+      "Giving advice",
+      "Overthinking professionally 😭",
+      "Sleeping anywhere"
+    ]
+  },
+  "23": {
+    "question": "What would make me instantly emotional?",
+    "options": [
+      "A heartfelt paragraph",
+      "Old memories",
+      "Unexpected effort",
+      "Sad songs"
+    ]
+  },
+  "24": {
+    "question": "What’s my texting style?",
+    "options": [
+      "Fast replies",
+      "Dry but caring",
+      "Emoji overload",
+      "Random disappearing"
+    ]
+  },
+  "25": {
+    "question": "What would I spend money on first?",
+    "options": [
+      "Food",
+      "Clothes",
+      "Travel",
+      "Gadgets"
+    ]
+  },
+  "26": {
+    "question": "What instantly ruins my mood?",
+    "options": [
+      "Late replies",
+      "Rude behavior",
+      "Cancelled plans",
+      "Feeling ignored"
+    ]
+  },
+  "27": {
+    "question": "What do I secretly need more of?",
+    "options": [
+      "Attention",
+      "Peace",
+      "Reassurance",
+      "Quality time"
+    ]
+  },
+  "28": {
+    "question": "What kind of person am I during arguments?",
+    "options": [
+      "Silent",
+      "Emotional",
+      "Defensive",
+      "Wanting reassurance"
+    ]
+  },
+  "29": {
+    "question": "What’s my biggest strength?",
+    "options": [
+      "Loyalty",
+      "Patience",
+      "Humor",
+      "Emotional support"
+    ]
+  },
+  "30": {
+    "question": "What’s my favorite kind of attention?",
+    "options": [
+      "Cute texts",
+      "Phone calls",
+      "Physical affection",
+      "Little efforts"
+    ]
+  },
+  "31": {
+    "question": "What would I most likely do on a free day?",
+    "options": [
+      "Sleep",
+      "Watch shows",
+      "Go out",
+      "Talk to you"
+    ]
+  },
+  "32": {
+    "question": "What kind of gift would I love most?",
+    "options": [
+      "Handmade gift",
+      "Food",
+      "Flowers",
+      "Something meaningful"
+    ]
+  },
+  "33": {
+    "question": "What’s my relationship type?",
+    "options": [
+      "Clingy",
+      "Protective",
+      "Funny",
+      "Emotionally attached"
+    ]
+  },
+  "34": {
+    "question": "What’s my biggest pet peeve?",
+    "options": [
+      "Bad communication",
+      "Lack of effort",
+      "Dishonesty",
+      "Dry texting"
+    ]
+  },
+  "35": {
+    "question": "What’s my ideal late-night plan?",
+    "options": [
+      "Long conversations",
+      "Movie together",
+      "Food delivery",
+      "Sleeping peacefully 😌"
+    ]
+  },
+  "36": {
+    "question": "What would I most likely post on Instagram?",
+    "options": [
+      "Aesthetic pictures",
+      "Memes",
+      "Food stories",
+      "Random thoughts"
+    ]
+  },
+  "37": {
+    "question": "What makes me feel safest?",
+    "options": [
+      "Reassurance",
+      "Consistency",
+      "Attention",
+      "Honesty"
+    ]
+  },
+  "38": {
+    "question": "What’s my biggest ‘ick’?",
+    "options": [
+      "Fake behavior",
+      "Too much ego",
+      "Attention seeking",
+      "Dry replies"
+    ]
+  },
+  "39": {
+    "question": "What kind of weather matches my vibe?",
+    "options": [
+      "Rainy",
+      "Cold winter",
+      "Sunny mornings",
+      "Late-night breeze"
+    ]
+  },
+  "40": {
+    "question": "What would I never compromise on?",
+    "options": [
+      "Respect",
+      "Loyalty",
+      "Trust",
+      "Effort"
+    ]
+  },
+  "41": {
+    "question": "What’s my secret soft spot?",
+    "options": [
+      "Cute gestures",
+      "Food",
+      "Attention",
+      "Deep conversations"
+    ]
+  },
+  "42": {
+    "question": "What’s my comfort activity?",
+    "options": [
+      "Watching reels",
+      "Listening to music",
+      "Sleeping",
+      "Talking to someone"
+    ]
+  },
+  "43": {
+    "question": "What type of person do I admire most?",
+    "options": [
+      "Kind people",
+      "Funny people",
+      "Emotionally mature people",
+      "Hardworking people"
+    ]
+  },
+  "44": {
+    "question": "What’s my reaction when I miss someone badly?",
+    "options": [
+      "Spam texts",
+      "Stalk chats/photos",
+      "Pretend to act normal",
+      "Listen to sad songs"
+    ]
+  },
+  "45": {
+    "question": "What’s my dream relationship vibe?",
+    "options": [
+      "Best friends forever",
+      "Romantic and soft",
+      "Fun and chaotic",
+      "Peaceful and mature"
+    ]
+  },
+  "46": {
+    "question": "What’s my most used excuse?",
+    "options": [
+      "I’m sleepy",
+      "I forgot 😭",
+      "I was busy",
+      "Network issue tha"
+    ]
+  },
+  "47": {
+    "question": "What’s my biggest insecurity?",
+    "options": [
+      "Being replaced",
+      "Not being enough",
+      "Losing connection",
+      "Being misunderstood"
+    ]
+  },
+  "48": {
+    "question": "What kind of surprise would melt my heart?",
+    "options": [
+      "A handwritten note",
+      "Unexpected visit",
+      "Favorite food",
+      "A meaningful gift"
+    ]
+  },
+  "49": {
+    "question": "What’s something I secretly love hearing?",
+    "options": [
+      "I’m proud of you",
+      "I missed you",
+      "You matter to me",
+      "Take care please"
+    ]
+  },
+  "50": {
+    "question": "What is my ultimate relationship goal?",
+    "options": [
+      "Peace and loyalty",
+      "Fun and adventures",
+      "Deep emotional bond",
+      "Growing together forever"
+    ]
+  }
+}

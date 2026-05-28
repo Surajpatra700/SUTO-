@@ -1,0 +1,5 @@
+venv/
+hash_generator.py
+.env
+__pycache__/
+*.pyc

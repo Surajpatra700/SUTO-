@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>SUTO ❤️</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="question-card home-card">
+
+        <div class="logo-container">
+            <img src="/static/suto-logo.png" class="logo">
+        </div>
+
+        <p 
+            class="subtitle"
+            id="subtitle"
+        >
+            Coffee, Chaos & Conversations ❤️
+        </p>
+
+        <input
+            type="text"
+            id="partner1"
+            placeholder="Your Name"
+        >
+
+        <input
+            type="text"
+            id="partner2"
+            placeholder="Friend / Partner Name"
+        >
+
+        <input
+            type="password"
+            id="cafeCode"
+            placeholder="Enter Cafe Code"
+        >
+
+        <div class="game-select">
+
+            <button
+                class="mode-btn"
+                onclick="startGame('couple')"
+            >
+                Play as Partners ❤️
+            </button>
+
+            <button
+                class="mode-btn friend-mode"
+                onclick="startGame('friends')"
+            >
+                Play as Friends 🤝
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+let gameLink = "";
+
+async function startGame(gameType){
+
+    const cafeCode =
+        document.getElementById("cafeCode").value;
+
+    const partner1 =
+        document.getElementById("partner1").value;
+
+    const partner2 =
+        document.getElementById("partner2").value;
+
+    if(
+        partner1.trim() === "" ||
+        partner2.trim() === ""
+    ){
+
+        alert("Please enter both names ❤️");
+
+        return;
+    }
+
+    const response = await fetch(
+
+        "/create-session",
+
+        {
+            method:"POST",
+
+            headers:{
+                "Content-Type":"application/json"
+            },
+
+            body: JSON.stringify({
+
+                partner1,
+                partner2,
+
+                cafe_code: cafeCode,
+
+                game_type: gameType
+            })
+        }
+    );
+
+    const data = await response.json();
+
+    if(data.error){
+
+        alert(data.error);
+
+        return;
+    }
+
+    const inviteLink =
+        `${data.link}?p=p2`;
+
+    const creatorLink =
+        `${data.link}?p=p1`;
+
+    // GLOBAL SHARE LINK
+    gameLink = inviteLink;
+
+    // OPEN SHARE SHEET AUTOMATICALLY
+    if(navigator.share){
+
+        try{
+
+            await navigator.share({
+
+                title: "SUTO Compatibility Game",
+
+                text:
+                `Play this SUTO compatibility game with me ☕`,
+
+                url: inviteLink
+
+            });
+
+        }catch(err){
+
+            console.log("Share cancelled");
+        }
+    }
+
+    window.location.href = creatorLink;
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,452 @@
+{
+  "1": {
+    "question": "What matters most to you in a relationship?",
+    "options": [
+      "Trust",
+      "Communication",
+      "Loyalty",
+      "Effort"
+    ]
+  },
+  "2": {
+    "question": "What is your biggest relationship fear?",
+    "options": [
+      "Getting ignored",
+      "Losing the connection",
+      "Getting cheated on",
+      "Misunderstandings"
+    ]
+  },
+  "3": {
+    "question": "What makes you feel most loved?",
+    "options": [
+      "Quality time",
+      "Words of affirmation",
+      "Small surprises",
+      "Physical affection"
+    ]
+  },
+  "4": {
+    "question": "What hurts you the most during fights?",
+    "options": [
+      "Silent treatment",
+      "Harsh words",
+      "Being misunderstood",
+      "Late replies"
+    ]
+  },
+  "5": {
+    "question": "What’s your love language?",
+    "options": [
+      "Attention",
+      "Gifts",
+      "Time together",
+      "Emotional support"
+    ]
+  },
+  "6": {
+    "question": "How do you usually express anger?",
+    "options": [
+      "Go silent",
+      "Talk instantly",
+      "Get emotional",
+      "Need space"
+    ]
+  },
+  "7": {
+    "question": "What type of date do you enjoy most?",
+    "options": [
+      "Cafe dates",
+      "Long drives",
+      "Movie nights",
+      "Random adventures"
+    ]
+  },
+  "8": {
+    "question": "What makes you instantly happy?",
+    "options": [
+      "Food",
+      "Texts from partner",
+      "Sleep",
+      "Music"
+    ]
+  },
+  "9": {
+    "question": "How do you deal with stress?",
+    "options": [
+      "Talk to someone",
+      "Stay alone",
+      "Listen to music",
+      "Overthink everything"
+    ]
+  },
+  "10": {
+    "question": "What annoys you the most?",
+    "options": [
+      "Dry replies",
+      "Lies",
+      "Lack of effort",
+      "Being ignored"
+    ]
+  },
+  "11": {
+    "question": "What kind of partner vibe do you like?",
+    "options": [
+      "Funny",
+      "Protective",
+      "Calm",
+      "Romantic"
+    ]
+  },
+  "12": {
+    "question": "What’s your ideal way to spend a Sunday?",
+    "options": [
+      "Sleeping",
+      "Going out",
+      "Watching shows",
+      "Talking for hours"
+    ]
+  },
+  "13": {
+    "question": "What do you value more?",
+    "options": [
+      "Honesty",
+      "Loyalty",
+      "Understanding",
+      "Consistency"
+    ]
+  },
+  "14": {
+    "question": "How often do you overthink?",
+    "options": [
+      "Daily 😭",
+      "Sometimes",
+      "Only during fights",
+      "Rarely"
+    ]
+  },
+  "15": {
+    "question": "What would hurt you more?",
+    "options": [
+      "Getting lied to",
+      "Getting replaced",
+      "Feeling unwanted",
+      "Lack of attention"
+    ]
+  },
+  "16": {
+    "question": "What kind of messages make your day better?",
+    "options": [
+      "Cute texts",
+      "Long paragraphs",
+      "Random memes",
+      "Voice notes"
+    ]
+  },
+  "17": {
+    "question": "What’s your biggest green flag?",
+    "options": [
+      "Loyal",
+      "Understanding",
+      "Supportive",
+      "Emotionally available"
+    ]
+  },
+  "18": {
+    "question": "What type of fights are the worst?",
+    "options": [
+      "Petty arguments",
+      "Silent fights",
+      "Miscommunication",
+      "Jealousy fights"
+    ]
+  },
+  "19": {
+    "question": "What kind of compliments do you love most?",
+    "options": [
+      "Appearance",
+      "Personality",
+      "Efforts",
+      "Intelligence"
+    ]
+  },
+  "20": {
+    "question": "How do you usually react when upset?",
+    "options": [
+      "Need reassurance",
+      "Need space",
+      "Get emotional",
+      "Act normal"
+    ]
+  },
+  "21": {
+    "question": "What’s your dream couple activity?",
+    "options": [
+      "Traveling",
+      "Late-night talks",
+      "Cooking together",
+      "Gaming/movie nights"
+    ]
+  },
+  "22": {
+    "question": "What do you secretly expect from your partner?",
+    "options": [
+      "More attention",
+      "Better communication",
+      "Consistency",
+      "Cute efforts"
+    ]
+  },
+  "23": {
+    "question": "What makes relationships stronger?",
+    "options": [
+      "Communication",
+      "Trust",
+      "Patience",
+      "Understanding"
+    ]
+  },
+  "24": {
+    "question": "How important are late-night conversations to you?",
+    "options": [
+      "Very important",
+      "Cute sometimes",
+      "Depends on mood",
+      "Sleep matters more 😭"
+    ]
+  },
+  "25": {
+    "question": "What would you never tolerate?",
+    "options": [
+      "Cheating",
+      "Disrespect",
+      "Lies",
+      "Manipulation"
+    ]
+  },
+  "26": {
+    "question": "What instantly gives you the ‘ick’?",
+    "options": [
+      "Fake behavior",
+      "Too much ego",
+      "Dry texting",
+      "Showing off"
+    ]
+  },
+  "27": {
+    "question": "How do you show care for someone?",
+    "options": [
+      "Checking up on them",
+      "Giving time",
+      "Doing small things",
+      "Listening patiently"
+    ]
+  },
+  "28": {
+    "question": "What’s your biggest weakness in relationships?",
+    "options": [
+      "Overthinking",
+      "Attachment",
+      "Mood swings",
+      "Poor communication"
+    ]
+  },
+  "29": {
+    "question": "What kind of surprises do you prefer?",
+    "options": [
+      "Handmade efforts",
+      "Food",
+      "Flowers/gifts",
+      "Unexpected plans"
+    ]
+  },
+  "30": {
+    "question": "How quickly do you get attached?",
+    "options": [
+      "Very quickly 😭",
+      "Slowly",
+      "Depends on the person",
+      "Never admitting it"
+    ]
+  },
+  "31": {
+    "question": "What’s more attractive to you?",
+    "options": [
+      "Sense of humor",
+      "Kindness",
+      "Confidence",
+      "Emotional maturity"
+    ]
+  },
+  "32": {
+    "question": "What kind of texts do you wait for most?",
+    "options": [
+      "Reached home?",
+      "Miss you",
+      "Good morning",
+      "Let’s meet"
+    ]
+  },
+  "33": {
+    "question": "What’s your biggest comfort during bad days?",
+    "options": [
+      "Talking to partner",
+      "Music",
+      "Food",
+      "Being alone"
+    ]
+  },
+  "34": {
+    "question": "What do you think ruins relationships most?",
+    "options": [
+      "Ego",
+      "Lack of communication",
+      "Trust issues",
+      "No effort"
+    ]
+  },
+  "35": {
+    "question": "What’s your ideal relationship vibe?",
+    "options": [
+      "Best friends",
+      "Romantic and soft",
+      "Chaotic but fun",
+      "Calm and mature"
+    ]
+  },
+  "36": {
+    "question": "How important is reassurance for you?",
+    "options": [
+      "Very important",
+      "Sometimes needed",
+      "Rarely needed",
+      "Depends on situation"
+    ]
+  },
+  "37": {
+    "question": "What kind of partner are you?",
+    "options": [
+      "Protective",
+      "Emotional",
+      "Funny",
+      "Understanding"
+    ]
+  },
+  "38": {
+    "question": "What’s harder for you?",
+    "options": [
+      "Saying sorry",
+      "Trusting again",
+      "Opening up",
+      "Moving on"
+    ]
+  },
+  "39": {
+    "question": "What’s your idea of a perfect relationship?",
+    "options": [
+      "Peaceful",
+      "Fun and chaotic",
+      "Deep emotional bond",
+      "Supportive partnership"
+    ]
+  },
+  "40": {
+    "question": "How do you react when you miss someone?",
+    "options": [
+      "Spam texts 😭",
+      "Call them",
+      "Stalk old chats",
+      "Act normal"
+    ]
+  },
+  "41": {
+    "question": "What matters more during arguments?",
+    "options": [
+      "Understanding each other",
+      "Solving quickly",
+      "Being heard",
+      "Getting reassurance"
+    ]
+  },
+  "42": {
+    "question": "What kind of memories do you value most?",
+    "options": [
+      "Random little moments",
+      "Trips together",
+      "Deep conversations",
+      "Funny incidents"
+    ]
+  },
+  "43": {
+    "question": "What’s your toxic trait in relationships? 😭",
+    "options": [
+      "Overthinking",
+      "Being stubborn",
+      "Getting jealous",
+      "Replying late"
+    ]
+  },
+  "44": {
+    "question": "What’s the sweetest thing a partner can do?",
+    "options": [
+      "Remember small details",
+      "Give time",
+      "Reassure you",
+      "Support your goals"
+    ]
+  },
+  "45": {
+    "question": "What do you crave most in a relationship?",
+    "options": [
+      "Attention",
+      "Peace",
+      "Effort",
+      "Emotional connection"
+    ]
+  },
+  "46": {
+    "question": "How do you usually handle heartbreak?",
+    "options": [
+      "Cry and heal",
+      "Distract myself",
+      "Pretend I’m okay",
+      "Listen to sad songs"
+    ]
+  },
+  "47": {
+    "question": "What’s your favorite type of couple moment?",
+    "options": [
+      "Late-night talks",
+      "Laughing together",
+      "Random cuddles",
+      "Eating together"
+    ]
+  },
+  "48": {
+    "question": "What’s something you secretly need more of?",
+    "options": [
+      "Attention",
+      "Understanding",
+      "Reassurance",
+      "Quality time"
+    ]
+  },
+  "49": {
+    "question": "What would instantly fix your mood?",
+    "options": [
+      "Food",
+      "One hug",
+      "A long conversation",
+      "Sleep"
+    ]
+  },
+  "50": {
+    "question": "What’s your relationship motto?",
+    "options": [
+      "Us against the world",
+      "Communication is key",
+      "Loyalty over everything",
+      "Peace > ego"
+    ]
+  }
+}
